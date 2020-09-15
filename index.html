@@ -1,11 +1,167 @@
 <html>
     <head>
         <title>Snake</title>
+        <script src="jquery-3.5.1.min.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body  background="black">
         <input onkeydown="onKeyDownHandler(event);"/>
         <script>
+            function cambiar1(){
+                document.getElementById('un').src="blanco.png";
+		    }
+            function restaurar1(){
+                document.getElementById('un').src="flecha.png";
+            }
+            function cambiar2(){
+                document.getElementById('dos').src="blanco.png";
+            }
+            function restaurar2(){
+                document.getElementById('dos').src="flecha.png";
+            }
+            function cambiar3(){
+                document.getElementById('tres').src="blanco.png";
+            }
+            function restaurar3(){
+                document.getElementById('tres').src="flecha.png";
+            }
+            function cambiar4(){
+                document.getElementById('cuatros').src="blanco.png";
+            }
+            function restaurar4(){
+                document.getElementById('cuatros').src="flecha.png";
+            }
+            function cambiar5(){
+                document.getElementById('cinco').src="blanco.png";
+            }
+            function restaurar5(){
+                document.getElementById('cinco').src="flecha.png";
+            }
+            function cambiar6(){
+                document.getElementById('seis').src="blanco.png";
+            }
+            function restaurar6(){
+                document.getElementById('seis').src="flecha.png";
+            }
+            function cambiar7(){
+                document.getElementById('siete').src="blanco.png";
+            }
+            function restaurar7(){
+                document.getElementById('siete').src="flecha.png";
+            }
+            function cambiar8(){
+                document.getElementById('ocho').src="blanco.png";
+            }
+            function restaurar8(){
+                document.getElementById('ocho').src="flecha.png";
+            }
+            function cambiar9(){
+                document.getElementById('nueve').src="blanco.png";
+            }
+            function restaurar9(){
+                document.getElementById('nueve').src="flecha.png";
+            }
+            function cambiar10(){
+                document.getElementById('diez').src="blanco.png";
+            }
+            function restaurar10(){
+                document.getElementById('diez').src="flecha.png";
+            }
+            function cambiar11(){
+                document.getElementById('once').src="blanco.png";
+            }
+            function restaurar11(){
+                document.getElementById('once').src="flecha.png";
+            }
+            function cambiar12(){
+                document.getElementById('doce').src="blanco.png";
+            }
+            function restaurar12(){
+                document.getElementById('doce').src="flecha.png";
+            }
+            function cambiar13(){
+                document.getElementById('trece').src="blanco.png";
+            }
+            function restaurar13(){
+                document.getElementById('trece').src="flecha.png";
+            }
+            function cambiar14(){
+                document.getElementById('catorce').src="blanco.png";
+            }
+            function restaurar14(){
+                document.getElementById('catorce').src="flecha.png";
+            }
+            function cambiar15(){
+                document.getElementById('quince').src="blanco.png";
+            }
+            function restaurar15(){
+                document.getElementById('quince').src="flecha.png";
+            }
+            function cambiar16(){
+                document.getElementById('dieciseis').src="blanco.png";
+            }
+            function restaurar16(){
+                document.getElementById('dieciseis').src="flecha.png";
+            }
+            function cambiar17(){
+                document.getElementById('diecisiete').src="blanco.png";
+            }
+            function restaurar17(){
+                document.getElementById('diecisiete').src="flecha.png";
+            }
+            function cambiar19(){
+                document.getElementById('diecinueve').src="blanco.png";
+            }
+            function restaurar19(){
+                document.getElementById('diecinueve').src="flecha.png";
+            }
+            function cambiar20(){
+                document.getElementById('vente').src="blanco.png";
+            }
+            function restaurar20(){
+                document.getElementById('vente').src="flecha.png";
+            }
+            function cambiar21(){
+                document.getElementById('ventiuno').src="blanco.png";
+            }
+            function restaurar21(){
+                document.getElementById('ventiuno').src="flecha.png";
+            }
+            function cambiar22(){
+                document.getElementById('ventidos').src="blanco.png";
+            }
+            function restaurar22(){
+                document.getElementById('ventidos').src="flecha.png";
+            }
+            function cambiar23(){
+                document.getElementById('ventitres').src="blanco.png";
+            }
+            function restaurar23(){
+                document.getElementById('ventitres').src="flecha.png";
+            }
+            function cambiar24(){
+                document.getElementById('venticuatro').src="blanco.png";
+            }
+            function restaurar24(){
+                document.getElementById('venticuatro').src="flecha.png";
+            }
+            function cambiar25(){
+                document.getElementById('venticinco').src="blanco.png";
+            }
+            function restaurar25(){
+                document.getElementById('venticinco').src="flecha.png";
+            }
+            function cambiar26(){
+                document.getElementById('ventiseis').src="blanco.png";
+            }
+            function restaurar26(){
+                document.getElementById('ventiseis').src="flecha.png";
+            }
+
+            
+            
+
+
             function onKeyDownHandler(event){
                 var codigo = event.which || event.keyCode;
                 console.log("Presionada :"+ codigo);
@@ -14,160 +170,780 @@
                     console.log("do");
                     var audio = new Audio('do.mp3');
                     audio.play();
+                    restaurar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==87){
                     console.log("re");
                     var audio = new Audio('re.mp3');
                     audio.play();
+                    restaurar3();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==69){
                     console.log("mi");
                     var audio = new Audio("mi.mp3");
                     audio.play();
+                    restaurar5();
+                    cambiar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar4();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==82){
                     console.log("fa");
                     var audio = new Audio("fa.mp3");
                     audio.play();
+                    restaurar6();
+                    cambiar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar4();
+                    cambiar5();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==84){
                     console.log("sol");
                     var audio = new Audio("sol.mp3");
                     audio.play();
+                    restaurar8();
+                    cambiar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==89){
                     console.log("la");
                     var audio= new Audio("la.mp3");
                     audio.play();
+                    restaurar10();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==85){
                     console.log("si");
                     var audio= new Audio("si.mp3");
                     audio.play();
+                    restaurar12();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+                    
                 }
                 if(codigo==90){
                     console.log("do2");
                     var audio= new Audio("do2.mp3");
                     audio.play();
+                    restaurar13();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==88){
                     console.log("re2");
                     var audio = new Audio("re2.mp3");
                     audio.play();
+                    restaurar15();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==67){
                     console.log("mi2");
                     var audio = new Audio("mi2.mp3");
                     audio.play();
+                    restaurar17();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
 
                 }
                 if(codigo==86){
                     console.log("fa2");
                     var audio= new Audio("fa2.mp3");
                     audio.play();
+                    restaurar19();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==66){
                     console.log("sol2");
                     var audio= new Audio("sol2.mp3");
                     audio.play();
+                    restaurar21();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==78){
                     console.log("la2");
                     var audio= new Audio("la2.mp3");
                     audio.play();
+                    restaurar23();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==77){
                     console.log("si2");
                     var audio = new Audio("si2.mp3");
                     audio.play();
+                    restaurar25();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar26();
+
                 }
                 if(codigo==188){
                     console.log("do3");
                     var audio= new Audio("do3.mp3");
                     audio.play();
+                    restaurar26();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+
                 }
                 if(codigo==50){
                     console.log("do#");
                     var audio= new Audio("dosos.mp3");
                     audio.play();
+                    restaurar2();
+                    cambiar1();
+                    cambiar3();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==51){
                     console.log("re#");
                     var audio= new Audio("resos.mp3");
                     audio.play();
+                    restaurar4();
+                    cambiar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==53){
                     console.log("fa#");
                     var audio= new Audio("fasos.mp3");
                     audio.play();
+                    restaurar7();
+                    cambiar1();
+                    cambiar2();
+                    cambiar3();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==54){
                     console.log("sol#");
                     var audio= new Audio("solsos.mp3");
                     audio.play();
+                    restaurar9();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==55){
                     console.log("la#");
                     var audio= new Audio("lasos.mp3");
                     audio.play();
+                    restaurar11();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
                 }
                 if(codigo==83){
                     console.log("do2#");
                     var audio= new Audio("do2sos.mp3");
                     audio.play();
+                    restaurar14();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
+
                 }
                 if(codigo==68){
                     console.log("re2#");
                     var audio= new Audio("re2sos.mp3");
                     audio.play();
+                    restaurar16();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==71){
                     console.log("fa2#");
                     var audio= new Audio("fa2sos.mp3");
                     audio.play();
+                    restaurar20();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==72){
                     console.log("sol2#");
                     var audio= new Audio("sol2sos.mp3");
                     audio.play();
+                    restaurar22();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar23();
+                    cambiar24();
+                    cambiar25();
+                    cambiar26();
+
                 }
                 if(codigo==74){
                     console.log("la2#");
                     var audio= new Audio("la2sos.mp3");
                     audio.play();
-                }
-                
+                    restaurar24();
+                    cambiar1();
+                    cambiar2();
+                    cambiar4();
+                    cambiar5();
+                    cambiar6();
+                    cambiar7();
+                    cambiar8();
+                    cambiar9();
+                    cambiar10();
+                    cambiar11();
+                    cambiar12();
+                    cambiar13();
+                    cambiar14();
+                    cambiar15();
+                    cambiar16();
+                    cambiar17();
+                    cambiar19();
+                    cambiar20();
+                    cambiar21();
+                    cambiar22();
+                    cambiar23();
+                    cambiar25();
+                    cambiar26();
 
+                }
             }
         
         
         </script>
         <br></br>
-        <img class="flecha" id="un" src="flecha.png">
-        <img class="flecha" id="dos"src="flecha.png">
-        <img class="flecha" id="tres"src="flecha.png">
-        <img class="flecha" id="cuatros"src="flecha.png">
-        <img class="flecha" id="cinco"src="flecha.png">
-        <img class="flecha" id="seis"src="flecha.png">
-        <img class="flecha" id="siete"src="flecha.png">
-        <img class="flecha" id="ocho"src="flecha.png">
-        <img class="flecha" id="nueve"src="flecha.png">
-        <img class="flecha" id="diez"src="flecha.png">
-        <img class="flecha" id="once"src="flecha.png">
-        <img class="flecha" id="doce"src="flecha.png">
-        <img class="flecha" id="trece"src="flecha.png">
-        <img class="flecha" id="catorce"src="flecha.png">
-        <img class="flecha" id="quince"src="flecha.png">
-        <img class="flecha" id="dieciseis"src="flecha.png">
-        <img class="flecha" id="diecisiete"src="flecha.png">
-        <img class="flecha" id="diecinueve"src="flecha.png">
-        <img class="flecha" id="vente"src="flecha.png">
-        <img class="flecha" id="ventiuno"src="flecha.png">
-        <img class="flecha" id="ventidos"src="flecha.png">
-        <img class="flecha" id="ventitres"src="flecha.png">
-        <img class="flecha" id="venticuatro"src="flecha.png">
-        <img class="flecha" id="venticinco"src="flecha.png">
-        <img class="flecha" id="ventiseis"src="flecha.png">
+        <img class="flecha" id="un" src="blanco.png">
+        <img class="flecha" id="dos"src="blanco.png">
+        <img class="flecha" id="tres"src="blanco.png">
+        <img class="flecha" id="cuatros"src="blanco.png">
+        <img class="flecha" id="cinco"src="blanco.png">
+        <img class="flecha" id="seis"src="blanco.png">
+        <img class="flecha" id="siete"src="blanco.png">
+        <img class="flecha" id="ocho"src="blanco.png">
+        <img class="flecha" id="nueve"src="blanco.png">
+        <img class="flecha" id="diez"src="blanco.png">
+        <img class="flecha" id="once"src="blanco.png">
+        <img class="flecha" id="doce"src="blanco.png">
+        <img class="flecha" id="trece"src="blanco.png">
+        <img class="flecha" id="catorce"src="blanco.png">
+        <img class="flecha" id="quince"src="blanco.png">
+        <img class="flecha" id="dieciseis"src="blanco.png">
+        <img class="flecha" id="diecisiete"src="blanco.png">
+        <img class="flecha" id="diecinueve"src="blanco.png">
+        <img class="flecha" id="vente"src="blanco.png">
+        <img class="flecha" id="ventiuno"src="blanco.png">
+        <img class="flecha" id="ventidos"src="blanco.png">
+        <img class="flecha" id="ventitres"src="blanco.png">
+        <img class="flecha" id="venticuatro"src="blanco.png">
+        <img class="flecha" id="venticinco"src="blanco.png">
+        <img class="flecha" id="ventiseis"src="blanco.png">
         <br>
         
         
